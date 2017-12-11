@@ -7,6 +7,24 @@
 	letter-spacing: -2px;
 }
 
+@mixin servicesHeaderStyle {
+	color: #222222;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: -0.4px;
+}
+
+@mixin servicesTextStyle {
+	color: #888888;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.35px;
+}
+
 body {
 	width: 100%;
 	margin: 0 auto;
@@ -64,6 +82,32 @@ body {
 			font-weight: 400;
 			line-height: 30px;
 			letter-spacing: -0.5px;
+		}
+	}
+}
+
+.section-services {
+	text-align: center;
+	padding-top: 60px;
+	.services-header {
+		h3 {
+			@include headersStyle;
+			padding-bottom: 10px;
+		}
+		img {
+			padding-bottom: 75px;
+		}
+	}
+	.services-elements {
+		h4 {		
+			@include servicesHeaderStyle;
+		}
+		p {
+			padding-bottom: 100px;
+			@include servicesTextStyle;
+		}
+		img {
+			padding-bottom: 30px;
 		}
 	}
 }
