@@ -176,7 +176,7 @@ body {
 	}
 	.expertise-button {
 		button {
-			margin-bottom: 80px;
+			margin-bottom: 45px;
 			color: #222222;
 			font-family: 'Montserrat';
 			font-size: 16px;
@@ -186,8 +186,75 @@ body {
 			background-color: #ffffff;
 			border-radius: 50px;
 			padding: 8px 32px;
-			border: 1px solid  #35c2f8;;
+			border: 1px solid  #35c2f8;
 			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+		}
+	}
+}
+
+.section-portfolio {
+	padding-left: 400px;
+	.tree {
+		background-image: url('http://imageshack.com/a/img923/5804/297rBw.png');
+		padding-bottom: 600px;
+		margin-left: 70px;
+	}
+	[class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.portfolio-header {
+		h3 {
+			@include headersStyle;	
+	 		padding-top: 60px;
+		}
+	}
+	.portfolio-content {
+		background-image: url('http://imageshack.com/a/img924/787/a3ITsw.png');
+		width: 75%;
+		p {
+			color: #777777;
+			font-family: "Noto Sans";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 22px;
+			letter-spacing: -0.35px;
+			padding-bottom: 30px;
+		}
+	}
+	.portfolio-offer {
+		h4 {
+			float: right;
+			width: 90%;
+			margin-top: 0;
+			color: #222222;
+			font-family: 'Montserrat';
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 22px;
+			letter-spacing: -0.4px;
+		}
+		p {
+			float: right;
+			width: 90%;
+		}
+		.starr {
+			clear: both;
+		}
+		.pie {
+			clear: both;
+			p {
+				padding-bottom: 60px;
+			}
+		}
+		.sail {
+			h4 {
+
+			}
 		}
 	}
 }	
