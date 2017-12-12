@@ -311,4 +311,63 @@ body {
     letter-spacing: -0.4px;
     padding-bottom: 100px; }
 
+.section-contact {
+  background-color: #111111; }
+  .section-contact .contact-header h3 {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-top: 50px; }
+  .section-contact .contact-header p {
+    color: #ffffff;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.35px;
+    padding-bottom: 30px; }
+  .section-contact .contact-content p {
+    color: #ffffff;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    float: right; }
+  .section-contact .contact-content img {
+    padding-bottom: 40px; }
+  .section-contact .contact-content .facebook {
+    clear: both; }
+    .section-contact .contact-content .facebook p {
+      width: 80%; }
+  .section-contact .contact-content .pinterest {
+    clear: both; }
+    .section-contact .contact-content .pinterest p {
+      width: 80%; }
+  .section-contact .contact-content .gplus {
+    clear: both; }
+    .section-contact .contact-content .gplus p {
+      width: 80%; }
+  .section-contact .contact-content .mobile p {
+    width: 80%; }
+  .section-contact .contact-content .twitter {
+    clear: both; }
+    .section-contact .contact-content .twitter p {
+      width: 80%; }
+  .section-contact .contact-content .mail p {
+    width: 80%; }
+  .section-contact .contact-content .col-lg-6 {
+    padding-left: 0; }
+  .section-contact .footer {
+    color: #ffffff;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.35px;
+    text-align: center;
+    padding-bottom: 30px; }
+    .section-contact .footer p {
+      padding-top: 20px; }
+
 /*# sourceMappingURL=style.css.map */
