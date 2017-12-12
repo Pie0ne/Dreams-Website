@@ -263,4 +263,52 @@ body {
   text-align: center;
   padding-bottom: 110px; }
 
+.section-team {
+  background-color: #f7f7f7;
+  text-align: center; }
+  .section-team .team-header h3 {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -2px; }
+  .section-team .team-header img {
+    padding-bottom: 72px; }
+  .section-team .team-content img {
+    padding-bottom: 10px; }
+  .section-team .team-content i {
+    margin-bottom: 90px;
+    color: #fff;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 21px;
+    border-radius: 50px;
+    margin-right: 7px; }
+  .section-team .team-content h4 {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 20px;
+    margin-bottom: 5px; }
+  .section-team .team-content p {
+    color: #777777;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px; }
+  .section-team .bottom-text {
+    color: #777777;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    padding-bottom: 100px; }
+
 /*# sourceMappingURL=style.css.map */
