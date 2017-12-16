@@ -399,6 +399,34 @@ body {
 
 .section-contact {
 	background-color: #111111;
+	.right-side {
+		padding-top: 75px;
+		input {
+			display: block;
+			width: 90%;
+			padding: 10px 0 10px 10px;
+			margin-bottom: 30px;
+		}
+		button {
+			display: block;
+			color: #ffffff;
+			font-family: 'Montserrat';
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 44.21px;
+			letter-spacing: -0.37px;
+			background-color: #35c2f8;
+			border-radius: 50px;
+			border: 1px solid #35c2f8;
+			padding: 8px 30px;
+			margin-bottom: 37px;
+		}
+		textarea {
+			width: 90%;
+			margin-bottom: 30px;
+			padding: 10px 0 10px 10px;
+		}
+	}
 	.contact-header {
 		h3 {
 			color: #ffffff;
@@ -466,9 +494,7 @@ body {
 		}
 		.col-lg-6 {
 			padding-left: 0;
-		}
-		
-
+		}	
 	}
 	.footer {
 		color: #ffffff;
