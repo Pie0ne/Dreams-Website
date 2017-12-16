@@ -88,11 +88,11 @@ body {
 
 .section-services {
 	text-align: center;
-	padding-top: 60px;
 	.services-header {
 		h3 {
 			@include headersStyle;
 			padding-bottom: 10px;
+			padding-top: 80px;
 		}
 		img {
 			padding-bottom: 75px;
@@ -114,7 +114,7 @@ body {
 
 .section-expertise {
 	 background-color: #f7f7f7;
-	 padding-left: 400px;
+	 padding-left: 300px;
 	 [class*="col-"] {
 		padding-right: 0;
 		padding-left: 0;
@@ -173,6 +173,9 @@ body {
 		.star {
 			clear: both;
 		}
+		.cloud {
+			clear: both;
+		}
 	}
 	.expertise-button {
 		button {
@@ -193,11 +196,11 @@ body {
 }
 
 .section-portfolio {
-	padding-left: 400px;
+	padding-left: 300px;
 	.tree {
 		background-image: url('http://imageshack.com/a/img923/5804/297rBw.png');
 		padding-bottom: 600px;
-		margin-left: 70px;
+		margin-left: 120px;
 		margin-top: 80px;
 	}
 	[class*="col-"] {
@@ -244,15 +247,18 @@ body {
 			width: 90%;
 		}
 		.starr {
+			padding-top: 20px;
 			clear: both;
 		}
 		.pie {
+			padding-top: 20px;
 			clear: both;
 			p {
 				padding-bottom: 60px;
 			}
 		}
 		.sail {
+			padding-top: 20px;
 			h4 {
 
 			}
@@ -453,44 +459,32 @@ body {
 			font-size: 16px;
 			font-weight: 400;
 			float: right;
-
+			width: 80%;
 		}
 		img {
 			padding-bottom: 40px;
 		}
 		.facebook {
 			clear: both;
-			p {
-				width: 80%;
-			}
+		
 		}
 		.pinterest {
 			clear: both;
-			p {
-				width: 80%;
-			}
+			
 		}
 		.gplus {
 			clear: both;
-			p {
-				width: 80%;
-			}
+		
 		}
 		.mobile {
-			p {
-				width: 80%;
-			}
+		
 		}
 		.twitter {
 			clear: both;
-			p {
-				width: 80%;
-			}
+			
 		}
 		.mail {
-			p {
-				width: 80%;
-			}
+		
 		}
 		.col-lg-6 {
 			padding-left: 0;
@@ -508,5 +502,287 @@ body {
 		p {
 			padding-top: 20px;
 		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.section-expertise {
+			padding-left: 15px;
+			padding-right: 15px;
+			text-align: center;
+			.expertise-header {
+				text-align: center;
+				padding-bottom: 40px;
+			}
+		.expertise-photo {
+			clear: both;
+			padding-left: 0;
+			padding-right: 0;
+			display: none;
+		}
+		.expertise-services {
+			text-align: left;
+			padding-left: 100px;
+			.lock {
+				padding-top: 20px;
+				p {
+					padding-bottom: 80px;
+				}
+			}
+			.star {
+				padding-top: 20px;
+			}
+		}
+	}
+	.tree {
+		display: none;
+	}
+	.section-portfolio {
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+		.portfolio-content {
+			width: 100%;
+		}
+		.portfolio-offer {
+			h4 {
+				float: none;
+				width: 100%;
+				padding-top: 15px;
+			}
+			p {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+	
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo {
+		text-align: center;
+	}
+	.menu {
+		ul {
+			padding-left: 0;
+			padding-top: 50px;
+			text-align: center;
+		}
+	}
+	.section-expertise {
+		padding-left: 15px;
+		padding-right: 15px;
+		.expertise-header {
+			text-align: center;
+			padding-left: 15px;
+		}
+		.expertise-photo {
+			display: none;
+		}
+		.expertise-services {
+			padding-left: 200px;
+			.star {
+				padding-top: 20px;
+			}
+			.cloud {
+				padding-top: 20px;
+			}
+			.lock {
+				padding-top: 20px;
+			}
+		}
+		.expertise-button {
+			text-align: center;
+			clear: both;
+			button {
+				margin-top: 20px;
+			}
+		}
+	}
+	.tree {
+		display: none;
+	}
+	.section-portfolio {
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+		.portfolio-content {
+			width: 100%;
+		}
+		.portfolio-offer {
+			h4 {
+				float: none;
+				width: 100%;
+				padding-top: 15px;
+			}
+			p {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+	.section-contact {
+		.right-side {
+			margin-top: 100px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.logo {
+		text-align: center;
+	}
+	.section-header {
+		.main-header {
+				h2 {
+					font-size: 40px;
+				}
+			}
+		.header-menu {
+			padding-bottom: 80px;
+			
+			.menu {
+				ul {
+					padding-left: 0;
+					padding-top: 50px;
+					text-align: center;
+					li {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	.section-services {
+		.services-header {
+			h3 {
+				padding-top: 320px;
+			}
+		}
+	}
+	.section-expertise {
+		padding-left: 15px;
+		padding-right: 15px;
+		.expertise-header {
+			text-align: center;
+			padding-left: 15px;
+		}
+		.expertise-photo {
+			display: none;
+		}
+		.expertise-services {
+			
+			text-align: center;
+			p {
+				float: none;
+				width: 100%;
+
+			}
+			h4 {
+				float: none;
+				width: 100%;
+			}
+			
+			.star {
+				padding-top: 40px;
+			}
+			.cloud {
+				padding-top: 40px;
+			}
+			.lock {
+				padding-top: 40px;
+			}
+		}
+		.expertise-button {
+			text-align: center;
+			clear: both;
+			button {
+				margin-top: 20px;
+			}
+		}
+	}
+	.tree {
+		display: none;
+	}
+	.section-portfolio {
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+		.portfolio-content {
+			width: 100%;
+		}
+		.portfolio-offer {
+			h4 {
+				float: none;
+				width: 100%;
+				padding-top: 15px;
+			}
+			p {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+	.section-about {
+		text-align: center;
+		.right-content {
+			text-align: center;
+		}
+		.about-content {
+			text-align: center;
+			padding-top: 50px;
+		}
+		.about-image {
+			padding-bottom: 35px;
+			padding-top: 20px;
+		}
+		.right-image {
+			text-align: center;
+			padding-bottom: 30px;
+		}
+		.bottom-image {
+			padding-top: 40px;
+		}
+	}
+	.left-side {
+		.contact-header {
+			text-align: center;
+		}
+		.contact-content {
+			text-align: center;
+			p {
+				float: none;
+				width: 100%;
+			}
+			img {
+				padding-bottom: 10px;
+				padding-top: 25px;
+			}	
+		}
+	}
+	.section-contact {
+		text-align: center;
+		.right-side {
+			input {
+				width: 50%;
+				margin: 15px auto;
+			}
+			textarea {
+				width: 50%;
+			}
+			button {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+	
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.section-expertise {
+		padding-left: 35px;
 	}
 }
