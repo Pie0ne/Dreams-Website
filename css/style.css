@@ -5,6 +5,7 @@ body {
 .section-header {
   background-image: url("http://imageshack.com/a/img923/2870/t8V746.png");
   padding-bottom: 700px;
+  background-size: cover;
   position: relative; }
   .section-header .layer {
     background-color: #000000;
@@ -101,6 +102,7 @@ body {
     margin-right: 0; }
   .section-expertise .expertise-photo {
     background-image: url("http://imageshack.com/a/img923/6426/I49koj.png");
+    background-size: cover;
     padding-bottom: 580px; }
     .section-expertise .expertise-photo:hover {
       opacity: 0.7;
@@ -176,6 +178,7 @@ body {
     cursor: pointer; }
   .section-portfolio .tree {
     background-image: url("http://imageshack.com/a/img923/5804/297rBw.png");
+    background-size: cover;
     padding-bottom: 600px;
     margin-left: 120px;
     margin-top: 80px; }
